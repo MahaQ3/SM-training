@@ -19,7 +19,7 @@ For example:
      `  pip3 install requests `
  
 
-- ### Run The [code](https://github.com/MahaQ3/SM-training/blob/master/task-2/request-content-page.py)
+- ### Run The [code](https://github.com/MahaQ3/SM-training/blob/master/task-2/request-page-content.py)
  
  
 - ### The [Result](https://github.com/MahaQ3/SM-training/blob/master/task-2/HTTPS%20requests.mp4)
