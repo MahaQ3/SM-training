@@ -1,0 +1,38 @@
+pip install --upgrade pip
+pip install --upgrade protobuf
+
+pip install tensorflow==1.5.1
+pip install numpy
+
+pip install gputil
+pip install psutil
+pip install humanize
+
+apt-get install protobuf-compiler python-pil python-lxml python-tk
+pip install Cython
+cd  yourpath/Object_Detection_Files/models/research/
+protoc object_detection/protos/*.proto --python_out=.
+
+set PYTHONPATH=%PYTHONPAT:'pwd':pwd' /slim  --for windows--
+export PYTHONPATH=%PYTHONPAT:'pwd':pwd' /slim  --for linux--
+
+python setup.py build
+python setup.py install
+
+python setup.py install!apt-get install protobuf-compiler python-pil python-lxml python-tk
+pip install Cython
+cd yourpath/Object_Detection_Files/models/research/
+protoc object_detection/protos/*.proto --python_out=.
+
+set PYTHONPATH=%PYTHONPAT:'pwd':pwd' /slim  --for windows--
+export PYTHONPATH=%PYTHONPAT:'pwd':pwd' /slim  --for linux--
+
+python setup.py build
+python setup.py install
+
+pip install tf_slim
+cd  yourpath//models/research/object_detection
+set PYTHONPATH=%PYTHONPAT:'pwd':pwd' /slim  --for windows--
+export PYTHONPATH=%PYTHONPAT:'pwd':pwd' /slim  --for linux--
+
+

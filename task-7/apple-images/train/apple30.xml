@@ -1,0 +1,26 @@
+<annotation>
+	<folder>train</folder>
+	<filename>apple30.jpg</filename>
+	<path>C:\Users\MyPC\Desktop\detect-apples\train\apple30.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>500</width>
+		<height>750</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>apple</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>71</xmin>
+			<ymin>366</ymin>
+			<xmax>412</xmax>
+			<ymax>707</ymax>
+		</bndbox>
+	</object>
+</annotation>
